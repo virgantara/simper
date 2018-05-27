@@ -1,0 +1,78 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ddd;
+    font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #ddd;
+    font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #ddd;
+    font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #ddd;
+    font-style: italic;
+}
+textarea{
+    resize: vertical;
+}
+
+
+/*tinymce*/
+.mce-panel{
+    border-radius: 3px;
+    border-collapse: #ddd;
+}
+
+/*bootstrap-select*/
+.bootstrap-select.btn-group .dropdown-menu>li>a .color{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    float: left;
+}
+.bootstrap-select.btn-group .dropdown-menu>li>a .color>span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+/*panel*/
+.panel-footer>.heading-elements.action-left{
+    padding-left: 20px;
+}
+
+/*page heading*/
+.page-title{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.page-title h2{
+    font-size: 27px;
+}
+
+.has-error .select2 .select2-selection{
+    border-color: #d84315;
+}
+
+body{
+    background-color: #ff8661;
+}
+.navbar-brand{
+    padding-top: 0;
+    /*height: 55px;*/
+}
+.navbar-brand > img{
+    height: 46px;
+    margin-top: 0;
+}
+.sidebar-xs .sidebar img{
+    display: none;
+}
+/*.sidebar-category{
+    background: url('../images/backgrounds/envelope.png');
+}*/
